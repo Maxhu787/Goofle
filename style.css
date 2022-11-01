@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Work+Sans:wght@300&display=swap');
+
+:root {
+    --background-light: rgb(255, 255, 255);
+    --background-light-second: rgb(202, 202, 202);
+    --background-dark: rgb(31, 31, 31);
+    --background-dark-second: rgb(75, 75, 75);
+    --text-light: rgb(31, 31, 31);
+    --text-light-second: rgb(0, 255, 234);
+    --text-dark: rgb(255, 255, 255);
+    --text-dark-second: rgb(0, 255, 234);
+}
+body {
+    background-color: var(--background-dark);
+    color: var(--text-dark);
+    font-family: 'Orbitron', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.logo-text-main {
+    margin-top: 50px;
+    font-size: 120px;
+}
+.search-container {
+    margin-top: 40px;
+}
+.search-container i {
+    color: var(--text-dark);
+}
+.search-bar-main {
+    width: 750px;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 12px;
+    padding-left: 60px;
+    color: var(--text-dark);
+    background-color: var(--background-dark)
+}
+.search-bar-main:hover {
+    background-color: var(--background-dark-second);
+    transition: all .3s ease-in-out;
+}
+.search-bar-btn {
+    position: absolute;
+    background-color: transparent;
+    border-radius: 8px;
+    border: none;
+}
+.search-bar-btn:hover i {
+    color: var(--text-dark-second);
+}
+.search-bar-search-btn {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.search-bar-close-btn {
+    margin-left: -45px;
+    margin-top: 10px;
+    visibility: hidden;
+}
