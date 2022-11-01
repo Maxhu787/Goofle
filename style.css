@@ -16,6 +16,9 @@ body {
     font-family: 'Orbitron', Arial, Helvetica, sans-serif;
     text-align: center;
 }
+main {
+    margin-top: 15%;
+}
 .logo-text-main {
     margin-top: 50px;
     font-size: 120px;
