@@ -16,3 +16,13 @@ function clearSearch() {
     input.value = "";
     checkInput();
 }
+function submit() {}
+
+$(".search-bar-main").on('keyup', function (e) {
+    if (e.key === 'Enter' || e.keyCode === 13) {
+        console.log(input.value.trim());
+        if(input.value.trim().length !== 0) {
+            submit();
+        }
+    }
+});
