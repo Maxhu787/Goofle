@@ -19,6 +19,14 @@ body {
 main {
     margin-top: 15%;
 }
+a {
+    color: var(--text-dark-second);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--text-dark);
+    transition: .3s ease-in-out;
+}
 .logo-text-main {
     margin-top: 50px;
     font-size: 120px;
@@ -35,13 +43,14 @@ main {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 18px;
+    font-weight: 400;
     padding: 12px;
     padding-left: 60px;
     color: var(--text-dark);
     background-color: var(--background-dark)
 }
 .search-bar-main:hover {
-    background-color: var(--background-dark-second);
+    background-color: var(--background-dark);
     transition: all .3s ease-in-out;
 }
 .search-bar-btn {
@@ -49,9 +58,10 @@ main {
     background-color: transparent;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 .search-bar-btn:hover i {
-    color: var(--text-dark-second);
+    color: var(--text-dark);
 }
 .search-bar-search-btn {
     margin-left: 20px;
